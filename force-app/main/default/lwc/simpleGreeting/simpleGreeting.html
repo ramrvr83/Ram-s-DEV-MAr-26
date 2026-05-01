@@ -1,0 +1,22 @@
+<template>
+    
+<lightning-card title="Ram's First LWC">
+        <div class="slds-m-around_medium">
+            <p>{message}</p>
+
+            <lightning-button
+                label="Click Me"
+                onclick={handleClick}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+    <lightning-button-menu alternative-text="Toggle menu">
+        <lightning-menu-item
+            label="Menu Item 1"
+            value="menuitem1"
+            icon-name="utility:table"
+        >
+        </lightning-menu-item>
+    </lightning-button-menu>
+
+</template>
